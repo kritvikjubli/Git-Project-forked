@@ -1,0 +1,16 @@
+
+
+* touch file_name.file_extension --> to create a file
+* mkdir directory_name --> to create a folder
+* git init --> to kae an empty git repositry
+* git add . -->to add all the untracked file to the staging area
+* git add file_name --> to add individual file to staging area
+* git status --> to check the status of the project, wether files are deleted/created/modified/at staging area
+* vim file_name --> to edit a file
+* cat file_name --> to display the content inside the file
+* rm -rv file_name --> to delete a file
+* rm -rf file name -->  "   "    "   "
+* git reset  HEAD -- file_name --> to remove file from staging area
+* git reset --> remove all file from staging area
+* git commit -m "message to display"
+* git log --> to see the history of project

@@ -1,3 +1,7 @@
+Ayush Chamola
+I am learning Git and Git Hub
+
+***************Git Commands*****************
 
 
 * touch file_name.file_extension --> to create a file
@@ -14,3 +18,4 @@
 * git reset --> remove all file from staging area
 * git commit -m "message to display"
 * git log --> to see the history of project
+

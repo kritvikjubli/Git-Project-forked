@@ -18,9 +18,15 @@ I am learning Git and Git Hub
 * git reset --> remove all file from staging area
 * git commit -m "message to display" --> to commit the change
 * git log --> to see the history of project
+* press q --> to come out of help file in git
+* git stash --> It saves the uncommitted changes locally, allowing to perform other changes
+* git stash pop --> It brings the file from stash to unstaged area
+* git stash clear --> It clear all the file from stash, means no file to pop in unstaged area
+* git remote add Repo-URL-name(by deafult it is origin) --> 
 
 
 **************IMPORTANT******************
+IMPT1-->
 
 If we delete a file from out directory and commit that change, then we can restore that file
 step 1--> first we have to copy the previous commit link
@@ -28,9 +34,9 @@ step 2 --> git reset prev_git_command
 step 3--> git restore file_name
 file will be restored
 
-**************************Git commands*****************
-* press q --> to come out of help file in git
-* git stash --> It saves the uncommitted changes locally, allowing to perform other changes
-* git stash pop --> It brings the file from stash to unstaged area
-* git stash clear --> It clear all the file from stash, means no file to pop in unstaged area
-
+IMPT2-->
+git remote add origin link-Of-GitHub-Repo
+remote means working with URl's
+add means adding the url
+**origin --> Name of the url (similar to the name we have while saving a phone nos, we don't remember phone no we remember 
+naem), by default all the name of the Repository URl's in the personal Git-Hub starts with *origin*

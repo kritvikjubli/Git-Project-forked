@@ -29,4 +29,6 @@ step 3--> git restore file_name
 file will be restored
 
 **************************Git commands*****************
-press q --> to come out of help file in git
+* press q --> to come out of help file in git
+* git stash -->
+* git stash pop -->

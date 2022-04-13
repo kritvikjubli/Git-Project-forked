@@ -30,5 +30,5 @@ file will be restored
 
 **************************Git commands*****************
 * press q --> to come out of help file in git
-* git stash -->
-* git stash pop -->
+* git stash --> It saves the uncommitted changes locally, allowing to perform other changes
+* git stash pop --> 

@@ -14,8 +14,19 @@ I am learning Git and Git Hub
 * cat file_name --> to display the content inside the file
 * rm -rv file_name --> to delete a file
 * rm -rf file name -->  "   "    "   "
-* git reset  HEAD -- file_name --> to remove file from staging area
+* git reset  HEAD -- file_name --> to remove individual file from staging area
 * git reset --> remove all file from staging area
-* git commit -m "message to display"
+* git commit -m "message to display" --> to commit the change
 * git log --> to see the history of project
 
+
+**************IMPORTANT******************
+
+If we delete a file from out directory and commit that change, then we can restore that file
+step 1--> first we have to copy the previous commit link
+step 2 --> git reset prev_git_command
+step 3--> git restore file_name
+file will be restored
+
+**************************Git commands*****************
+press q --> to come out of help file in git

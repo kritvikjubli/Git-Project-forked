@@ -14,7 +14,7 @@ I am learning Git and Git Hub
 * cat file_name --> to display the content inside the file
 * rm -rv file_name --> to delete a file
 * rm -rf file name -->  "   "    "   "
-* git reset  HEAD -- file_name --> to remove individual file from staging area
+* git reset  HEAD -- file_name--> to remove individual file from staging area
 * git reset --> remove all file from staging area
 * git commit -m "message to display" --> to commit the change
 * git log --> to see the history of project
@@ -36,8 +36,17 @@ step 4 --> git restore file_name
 file will be restored
 
 IMPT2-->
+
 git remote add origin link-Of-GitHub-Repo
 remote means working with URl's
 add means adding the url
 **origin --> Name of the url (similar to the name we have while saving a phone nos, we don't remember phone no we remember 
 name), by default all the name of the Repository URl's in the personal Git-Hub starts with *origin*
+
+IMPT3-->
+
+Histroy of peoject is saved inside .git directory
+Inside .git folder there is head.
+
+Q. what is a HEAD?
+ANS-> HEAD is basically a pointer which points to the branch where the commit should be stored

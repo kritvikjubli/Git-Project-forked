@@ -15,6 +15,7 @@ I am learning Git and Git Hub
 * rm -rv file_name --> to delete a file
 * rm -rf file name -->  "   "    "   "
 * git reset  HEAD -- file_name--> to remove individual file from staging area
+* git restore --staged file_name --> remove file from staging area
 * git reset --> remove all file from staging area
 * git commit -m "message to display" --> to commit the change
 * git log --> to see the history of project

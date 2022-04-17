@@ -74,7 +74,7 @@ Histroy of project is saved inside .git directory
 Inside .git folder there is head.
 
 Q. what is a HEAD?
-ANS-> HEAD is basically a pointer which points to the branch where the commit should be stored
+ANS-> HEAD is basically a pointer which points to the branch where the commit will be stored
 
 IMPT4-->
 

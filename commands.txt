@@ -28,6 +28,8 @@ I am learning Git and Git Hub
 
                                  **************IMPORTANT******************
 IMPT1-->
+History of deleted (means the file should be commmited) file should be saved in out .git directory, only then we can restore it 
+
 
 If we delete a file from our directory and commit that change, then we can restore that file
 step 1 --> first we have to commit the change of deleting the file
@@ -46,7 +48,7 @@ name), by default all the name of the Repository URl's in the personal Git-Hub s
 
 IMPT3-->
 
-Histroy of peoject is saved inside .git directory
+Histroy of project is saved inside .git directory
 Inside .git folder there is head.
 
 Q. what is a HEAD?

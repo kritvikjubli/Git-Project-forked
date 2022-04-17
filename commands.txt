@@ -53,3 +53,8 @@ Inside .git folder there is head.
 
 Q. what is a HEAD?
 ANS-> HEAD is basically a pointer which points to the branch where the commit should be stored
+
+IMPT4-->
+
+we have to push the file to staging area then only we can move it stash area
+stash means backstage

@@ -1,6 +1,13 @@
 Ayush Chamola
 I am learning Git and Git Hub
 
+
+
+
+
+
+
+
                                ***************Git Commands*****************
 
 
@@ -23,7 +30,22 @@ I am learning Git and Git Hub
 * git stash --> It saves the uncommitted changes locally, allowing to perform other changes
 * git stash pop --> It brings the file from stash to unstaged area
 * git stash clear --> It clear all the file from stash, means no file to pop in unstaged area
-* git remote add Repo-URL-name(by deafult it is origin) --> add Git-Hub URL to the working Directoy of the PC
+* git remote add Repo-URL-name(by deafult it is origin) url-link --> add Git-Hub URL to the working Directoy of the PC
+* git remote -v --> shows all the git hib url attached to our local directory
+* git push origin(url name) master(branch name) --> It will push  all the changes and history of our project to our Git-Hub directory
+(push means --> push the changes,,,, origin means --> to which url you want to push the change,,,, master mebas --> to which branch you want to add this
+
+
+
+
+
+
+
+
+
+
+
+
 
 
                                  **************IMPORTANT******************

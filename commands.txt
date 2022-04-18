@@ -141,3 +141,9 @@ command --> git reset --hard upstream/main-branch-name
 step4 --> Now push the changes to main branch of forked directory
 
 
+IMPT9-->
+
+
+whenever error like permission denied came while pushing the changes to remote repo always check windows credential manager 
+
+

@@ -138,6 +138,6 @@ step3 --> Now we have to reset the main of our origin with the main branch of up
 upstream main branch will be visible in origin main branch
 command --> git reset --hard upstream/main-branch-name
 
-step --> Now push the changes to main branch of forked directory
+step4 --> Now push the changes to main branch of forked directory
 
 

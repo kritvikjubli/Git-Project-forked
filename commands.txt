@@ -38,7 +38,8 @@ I am learning Git and Git Hub
 
 * git clone url --> downoad the files from the url to local pc
 * git remote add copied-Repo-url-name url-link --> it will add this repo to the working pc
-
+* git branch branch-name --> new branch will be created
+* git checkout branch-name --> now HEAD will point to new branch
 
 
 
@@ -51,6 +52,8 @@ I am learning Git and Git Hub
 
                                  **************IMPORTANT******************
 IMPT1-->
+
+
 History of deleted (means the file should be commmited) file should be saved in out .git directory, only then we can restore it 
 
 
@@ -61,7 +64,9 @@ step 3 --> git reset prev_git_command
 step 4 --> git restore file_name
 file will be restored
 
+
 IMPT2-->
+
 
 git remote add origin link-Of-GitHub-Repo
 remote means working with URl's
@@ -69,7 +74,9 @@ add means adding the url
 **origin --> Name of the url (similar to the name we have while saving a phone nos, we don't remember phone no we remember 
 name), by default all the name of the Repository URl's in the personal Git-Hub starts with *origin*
 
+
 IMPT3-->
+
 
 Histroy of project is saved inside .git directory
 Inside .git folder there is head.
@@ -77,25 +84,60 @@ Inside .git folder there is head.
 Q. what is a HEAD?
 ANS-> HEAD is basically a pointer which points to the branch where the commit will be stored
 
+
 IMPT4-->
+
 
 we have to push the file to staging area then only we can move it stash area
 stash means backstage
 
+
 *IMPT5 -->
+
 
 Downloading files from git directory to pc
 step 1 - first copy the code link of the repo
 step 2 --> run this command in your pc 
 git clone url 
 
+
 IMPT6-->
+
 
 You can directly make changes to any project into anyone account in Git-Hub, you have to fork that project
 
-fork basically means copying that projectfiles into your Git-Hub account
+fork basically means copying that project files into your Git-Hub account
+
 
 IMPT7-->
 
+
 url of our own repo is called *origin* 
 Repo(url of that project) from where we froked(copied) the project known as *upstream*
+
+
+IMPT8-->
+
+
+If you forked someone project in your Git-Hub account then the person whose project you have forked he can not make
+changes to the forked project in your account.
+
+Ques**---> (How to maintain the main branch of upstream and the main brnach of our forked project always run parallel)  
+How to maintain your forked project file with the original one if someone gets merged there code in the main account
+(without forking the project and without cloning it again)
+
+step1 -- first you have to add the upstream Url to your local directory
+command --> git remote add upstream url-link      (upstream is the default name of others url like we have origin)
+
+step2 -- now we have to fetch all the commits from upstream main branch 
+command --> git fetch -all --prune
+fetch means getting the commits .... all means fetch all the commits from our secondary branches and upstream main 
+branch ... prune means get all the deleted commits also
+
+step3 --> Now we have to reset the main of our origin with the main branch of upstream, so that all the changes in
+upstream main branch will be visible in origin main branch
+command --> git reset --hard upstream/main-branch-name
+
+step --> Now push the changes to main branch of forked directory
+
+
